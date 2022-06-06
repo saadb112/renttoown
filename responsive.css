@@ -1,0 +1,27 @@
+@media screen and (max-width : 1050px) {
+    .row{
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width : 788px) {
+    .input1{
+        width: 90%;
+    }
+    section .column .C2{
+        flex-direction: column;
+    }
+    section .column .C2 img{
+        width: 100%;
+    }
+    section .column{
+        height: auto;
+    }
+    section{
+        height: auto;
+    }
+    section .column{
+        width: 80%;
+    }
+}
